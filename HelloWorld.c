@@ -3,7 +3,7 @@
 void main(){
 	int i = 1;	
 
-	while(i<=5){
+	while(i<6){
 
 	printf("Hello World! %i\n",i);
 	i++;
