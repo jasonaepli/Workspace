@@ -2,8 +2,12 @@
 
 void main(){
 	int i = 1;	
+	int num;
 
-	while(i<6){
+	printf("Pick a number between 1 and 10 (inclusive).\n");
+	scanf(num);
+
+	while(i<=num){
 
 	printf("Hello World! %i\n",i);
 	i++;
